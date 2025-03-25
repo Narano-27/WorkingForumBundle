@@ -3,11 +3,11 @@
     "description": "A complete forum bundle",
     "type": "symfony-bundle",
     "require": {
-        "php": ">=8.2.0",
+        "php": ">=8.3.0",
         "ext-mbstring": "*",
         "knplabs/knp-paginator-bundle": "^5.0",
         "knplabs/knp-markdown-bundle": "^1.9.0",
-        "symfony/framework-bundle": ">=5.0|>=6.2",
+        "symfony/framework-bundle": "^6.4",
         "symfony/translation": ">=5.0|>=6.2",
         "symfony/security-bundle": ">=5.0|>=6.2",
         "symfony/templating": ">=5.0|>=6.2",
@@ -15,8 +15,8 @@
         "symfony/dependency-injection": ">=5.0|>=6.2",
         "symfony/form": ">=5.0|>=6.2",
         "doctrine/common": "^3.0",
-        "doctrine/orm": "^2.8",
-        "twig/twig": "^2.0|^3.0",
+        "doctrine/orm": "^3.0",
+        "twig/twig": "^2.12|^3.0",
         "symfony/twig-bridge": ">= 5.4|>=6.2",
         "twig/extra-bundle": ">= 3.3",
         "doctrine/doctrine-bundle": ">=2.6",
@@ -28,8 +28,7 @@
         "symfony/mailer": ">=5.4|>=6.2",
         "symfony/security-core": ">=5.4|>=6.2",
         "egulias/email-validator": "^3.1",
-        "symfony/expression-language": "^6.3",
-        "sensio/framework-extra-bundle": "^6.2"
+        "symfony/expression-language": "^6.3"
     },
     "license": "MIT",
     "authors": [
